@@ -11,10 +11,10 @@ import (
 	"golang.org/x/oauth2/google"
 	"google.golang.org/grpc"
 
-	"google.golang.org/api/internal"
-	"google.golang.org/api/option"
-	gtransport "google.golang.org/api/transport/grpc"
-	htransport "google.golang.org/api/transport/http"
+	"github.com/winebarrel/google-api-go-client/internal"
+	"github.com/winebarrel/google-api-go-client/option"
+	gtransport "github.com/winebarrel/google-api-go-client/transport/grpc"
+	htransport "github.com/winebarrel/google-api-go-client/transport/http"
 )
 
 // NewHTTPClient returns an HTTP client for use communicating with a Google cloud

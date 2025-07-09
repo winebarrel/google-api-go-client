@@ -9,10 +9,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
+	"github.com/winebarrel/google-api-go-client/internal"
+	"github.com/winebarrel/google-api-go-client/option"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/api/internal"
-	"google.golang.org/api/option"
 	"google.golang.org/grpc"
 )
 

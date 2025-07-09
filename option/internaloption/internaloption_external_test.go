@@ -8,8 +8,8 @@ import (
 	"context"
 	"fmt"
 
-	"google.golang.org/api/option"
-	"google.golang.org/api/option/internaloption"
+	"github.com/winebarrel/google-api-go-client/option"
+	"github.com/winebarrel/google-api-go-client/option/internaloption"
 )
 
 type config struct {

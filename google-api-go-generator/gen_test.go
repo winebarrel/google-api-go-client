@@ -17,8 +17,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/api/google-api-go-generator/internal/disco"
-	"google.golang.org/api/internal"
+	"github.com/winebarrel/google-api-go-client/google-api-go-generator/internal/disco"
+	"github.com/winebarrel/google-api-go-client/internal"
 )
 
 var updateGolden = flag.Bool("update_golden", false, "If true, causes TestAPIs to update golden files")

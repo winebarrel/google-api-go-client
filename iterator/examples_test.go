@@ -15,7 +15,7 @@ import (
 	"sort"
 	"strconv"
 
-	"google.golang.org/api/iterator"
+	"github.com/winebarrel/google-api-go-client/iterator"
 )
 
 var (

@@ -11,7 +11,7 @@ import (
 	"testing"
 	"testing/iotest"
 
-	"google.golang.org/api/googleapi"
+	"github.com/winebarrel/google-api-go-client/googleapi"
 )
 
 // getChunkAsString reads a chunk from mb, but does not call Next.

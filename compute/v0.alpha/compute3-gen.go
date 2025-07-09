@@ -12,8 +12,8 @@ import (
 	"net/http"
 
 	internallog "github.com/googleapis/gax-go/v2/internallog"
-	googleapi "google.golang.org/api/googleapi"
-	gensupport "google.golang.org/api/internal/gensupport"
+	googleapi "github.com/winebarrel/google-api-go-client/googleapi"
+	gensupport "github.com/winebarrel/google-api-go-client/internal/gensupport"
 )
 
 type RegionCompositeHealthChecksAggregatedListCall struct {

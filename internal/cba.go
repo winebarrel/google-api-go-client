@@ -42,7 +42,7 @@ import (
 	"strings"
 
 	"github.com/google/s2a-go"
-	"google.golang.org/api/internal/cert"
+	"github.com/winebarrel/google-api-go-client/internal/cert"
 	"google.golang.org/grpc/credentials"
 )
 

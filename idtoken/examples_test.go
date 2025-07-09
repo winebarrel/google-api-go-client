@@ -8,7 +8,7 @@ import (
 	"context"
 	"net/http"
 
-	"google.golang.org/api/idtoken"
+	"github.com/winebarrel/google-api-go-client/idtoken"
 )
 
 func ExampleNewTokenSource_setAuthorizationHeader() {

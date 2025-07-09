@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/googleapis/gax-go/v2"
-	"google.golang.org/api/googleapi"
+	"github.com/winebarrel/google-api-go-client/googleapi"
 )
 
 // Backoff is an interface around gax.Backoff's Pause method, allowing tests to provide their

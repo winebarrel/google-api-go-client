@@ -48,7 +48,7 @@
 //	merchantapiService, err := merchantapi.NewService(ctx, option.WithTokenSource(config.TokenSource(ctx, token)))
 //
 // See [google.golang.org/api/option.ClientOption] for details on options.
-package merchantapi // import "google.golang.org/api/merchantapi/reviews_v1beta"
+package merchantapi // import "github.com/winebarrel/google-api-go-client/merchantapi/reviews_v1beta"
 
 import (
 	"bytes"
@@ -64,12 +64,12 @@ import (
 	"strings"
 
 	"github.com/googleapis/gax-go/v2/internallog"
-	googleapi "google.golang.org/api/googleapi"
-	internal "google.golang.org/api/internal"
-	gensupport "google.golang.org/api/internal/gensupport"
-	option "google.golang.org/api/option"
-	internaloption "google.golang.org/api/option/internaloption"
-	htransport "google.golang.org/api/transport/http"
+	googleapi "github.com/winebarrel/google-api-go-client/googleapi"
+	internal "github.com/winebarrel/google-api-go-client/internal"
+	gensupport "github.com/winebarrel/google-api-go-client/internal/gensupport"
+	option "github.com/winebarrel/google-api-go-client/option"
+	internaloption "github.com/winebarrel/google-api-go-client/option/internaloption"
+	htransport "github.com/winebarrel/google-api-go-client/transport/http"
 )
 
 // Always reference these packages, just in case the auto-generated code

@@ -64,12 +64,12 @@ import (
 	"strings"
 
 	"github.com/googleapis/gax-go/v2/internallog"
-	googleapi "google.golang.org/api/googleapi"
-	internal "google.golang.org/api/internal"
-	gensupport "google.golang.org/api/internal/gensupport"
-	option "google.golang.org/api/option"
-	internaloption "google.golang.org/api/option/internaloption"
-	htransport "google.golang.org/api/transport/http"
+	googleapi "github.com/winebarrel/google-api-go-client/googleapi"
+	internal "github.com/winebarrel/google-api-go-client/internal"
+	gensupport "github.com/winebarrel/google-api-go-client/internal/gensupport"
+	option "github.com/winebarrel/google-api-go-client/option"
+	internaloption "github.com/winebarrel/google-api-go-client/option/internaloption"
+	htransport "github.com/winebarrel/google-api-go-client/transport/http"
 )
 
 // Always reference these packages, just in case the auto-generated code
@@ -122,9 +122,6 @@ func NewService(ctx context.Context, opts ...option.ClientOption) (*Service, err
 	s.Customchannels = NewCustomchannelsService(s)
 	s.Reports = NewReportsService(s)
 	s.Urlchannels = NewUrlchannelsService(s)
-	if err != nil {
-		return nil, err
-	}
 	if endpoint != "" {
 		s.BasePath = endpoint
 	}

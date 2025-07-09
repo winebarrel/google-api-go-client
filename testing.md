@@ -23,7 +23,7 @@ import (
     "fmt"
     "os"
 
-    "google.golang.org/api/translate/v3"
+    "github.com/winebarrel/google-api-go-client/translate/v3"
 )
 
 // TranslateText translates text to the given language using the provided
@@ -57,8 +57,8 @@ import (
     "net/http/httptest"
     "testing"
 
-    "google.golang.org/api/option"
-    "google.golang.org/api/translate/v3"
+    "github.com/winebarrel/google-api-go-client/option"
+    "github.com/winebarrel/google-api-go-client/translate/v3"
 )
 
 func TestTranslateText(t *testing.T) {
@@ -133,8 +133,8 @@ import (
     "log"
     "os"
 
-    "google.golang.org/api/option"
-    "google.golang.org/api/translate/v3"
+    "github.com/winebarrel/google-api-go-client/option"
+    "github.com/winebarrel/google-api-go-client/translate/v3"
 )
 
 type translateService struct {

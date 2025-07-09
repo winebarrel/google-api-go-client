@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"os"
 
-	drive "google.golang.org/api/drive/v3"
+	drive "github.com/winebarrel/google-api-go-client/drive/v3"
 )
 
 func init() {

@@ -19,13 +19,13 @@ import (
 	"cloud.google.com/go/auth/credentials"
 	"cloud.google.com/go/auth/httptransport"
 	"cloud.google.com/go/auth/oauth2adapt"
+	"github.com/winebarrel/google-api-go-client/googleapi/transport"
+	"github.com/winebarrel/google-api-go-client/internal"
+	"github.com/winebarrel/google-api-go-client/internal/cert"
+	"github.com/winebarrel/google-api-go-client/option"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 	"golang.org/x/net/http2"
 	"golang.org/x/oauth2"
-	"google.golang.org/api/googleapi/transport"
-	"google.golang.org/api/internal"
-	"google.golang.org/api/internal/cert"
-	"google.golang.org/api/option"
 )
 
 // NewClient returns an HTTP client for use communicating with a Google cloud

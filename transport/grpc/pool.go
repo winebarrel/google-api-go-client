@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 
 	"cloud.google.com/go/auth/grpctransport"
-	"google.golang.org/api/internal"
+	"github.com/winebarrel/google-api-go-client/internal"
 	"google.golang.org/grpc"
 )
 

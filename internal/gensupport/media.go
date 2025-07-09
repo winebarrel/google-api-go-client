@@ -17,7 +17,7 @@ import (
 	"time"
 
 	gax "github.com/googleapis/gax-go/v2"
-	"google.golang.org/api/googleapi"
+	"github.com/winebarrel/google-api-go-client/googleapi"
 )
 
 type typeReader struct {

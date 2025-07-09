@@ -11,10 +11,10 @@ import (
 	"net/http"
 
 	"cloud.google.com/go/auth"
+	"github.com/winebarrel/google-api-go-client/internal"
+	"github.com/winebarrel/google-api-go-client/internal/impersonate"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/api/internal"
-	"google.golang.org/api/internal/impersonate"
 	"google.golang.org/grpc"
 )
 

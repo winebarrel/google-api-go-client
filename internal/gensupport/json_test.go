@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"google.golang.org/api/googleapi"
+	"github.com/winebarrel/google-api-go-client/googleapi"
 )
 
 type CustomType struct {

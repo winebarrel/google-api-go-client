@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/winebarrel/google-api-go-client/option"
+	"github.com/winebarrel/google-api-go-client/option/internaloption"
 	"golang.org/x/oauth2"
-	"google.golang.org/api/option"
-	"google.golang.org/api/option/internaloption"
 	"google.golang.org/grpc"
 )
 

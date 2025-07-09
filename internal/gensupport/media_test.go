@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/api/googleapi"
+	"github.com/winebarrel/google-api-go-client/googleapi"
 )
 
 func TestNewInfoFromMedia(t *testing.T) {

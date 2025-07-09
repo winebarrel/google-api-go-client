@@ -64,12 +64,12 @@ import (
 	"strings"
 
 	"github.com/googleapis/gax-go/v2/internallog"
-	googleapi "google.golang.org/api/googleapi"
-	internal "google.golang.org/api/internal"
-	gensupport "google.golang.org/api/internal/gensupport"
-	option "google.golang.org/api/option"
-	internaloption "google.golang.org/api/option/internaloption"
-	htransport "google.golang.org/api/transport/http"
+	googleapi "github.com/winebarrel/google-api-go-client/googleapi"
+	internal "github.com/winebarrel/google-api-go-client/internal"
+	gensupport "github.com/winebarrel/google-api-go-client/internal/gensupport"
+	option "github.com/winebarrel/google-api-go-client/option"
+	internaloption "github.com/winebarrel/google-api-go-client/option/internaloption"
+	htransport "github.com/winebarrel/google-api-go-client/transport/http"
 )
 
 // Always reference these packages, just in case the auto-generated code
@@ -285,10 +285,10 @@ type RemoteConfigParameter struct {
 	// determines
 	// the value of this parameter.
 	ConditionalValues map[string]RemoteConfigParameterValue `json:"conditionalValues,omitempty"`
-	// DefaultValuxe: Optional - value to set the parameter to, when none of the
+	// DefaultValue: Optional - value to set the parameter to, when none of the
 	// named conditions
 	// evaluate to <code>true</code>.
-	DefaultValuxe *RemoteConfigParameterValue `json:"defaultValuxe,omitempty"`
+	DefaultValue *RemoteConfigParameterValue `json:"defaultValue,omitempty"`
 	// Description: Optional.
 	// A description for this Parameter. Length must be less than or equal to
 	// 100 characters (or more precisely, unicode code points, which is defined

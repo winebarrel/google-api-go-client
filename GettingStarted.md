@@ -37,7 +37,7 @@ import (
     "context"
     "golang.org/x/oauth2"
     "golang.org/x/oauth2/google"
-    "google.golang.org/api/urlshortener/v1"
+    "github.com/winebarrel/google-api-go-client/urlshortener/v1"
 )
 ```
 

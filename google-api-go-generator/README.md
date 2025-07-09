@@ -21,21 +21,21 @@ all of the client libraries in this repository
   "www.googleapis.com/discovery/v1/apis")
 - `gendir` (`string`): Directory to use to write out generated Go files
 - `gensupport_pkg` (`string`): Go package path of the 'api/internal/gensupport'
-  support package. (default "google.golang.org/api/internal/gensupport")
+  support package. (default "github.com/winebarrel/google-api-go-client/internal/gensupport")
 - `googleapi_pkg` (`string`): Go package path of the 'api/googleapi' support
-  package. (default "google.golang.org/api/googleapi")
+  package. (default "github.com/winebarrel/google-api-go-client/googleapi")
 - `header_path` (`string`): If non-empty, prepend the contents of this file to
   generated services.
 - `htransport_pkg` (`string`): Go package path of the 'api/transport/http' support
-  package. (default "google.golang.org/api/transport/http")
+  package. (default "github.com/winebarrel/google-api-go-client/transport/http")
 - `install` (`bool`): Install generated packages.
 - `internal_pkg` (`string`): Go package path of the 'internal' support package.
-  (default "google.golang.org/api/internal")
+  (default "github.com/winebarrel/google-api-go-client/internal")
 - `internaloption_pkg` (`string`): Go package path of the
   'api/option/internaloption' support package. (default
-  "google.golang.org/api/option/internaloption")
+  "github.com/winebarrel/google-api-go-client/option/internaloption")
 - `option_pkg` (`string`): Go package path of the 'api/option' support package.
-  (default "google.golang.org/api/option")
+  (default "github.com/winebarrel/google-api-go-client/option")
 - `output` (`string`): (optional) Path to source output file. If not specified,
   the API name and version are used to construct an output path (e.g. tasks/v1).
 - `publiconly` (`bool`): Only build public, released APIs. Only applicable for

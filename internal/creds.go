@@ -18,9 +18,9 @@ import (
 	"cloud.google.com/go/auth"
 	"cloud.google.com/go/auth/credentials"
 	"cloud.google.com/go/auth/oauth2adapt"
+	"github.com/winebarrel/google-api-go-client/internal/cert"
+	"github.com/winebarrel/google-api-go-client/internal/impersonate"
 	"golang.org/x/oauth2"
-	"google.golang.org/api/internal/cert"
-	"google.golang.org/api/internal/impersonate"
 
 	"golang.org/x/oauth2/google"
 )

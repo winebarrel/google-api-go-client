@@ -14,8 +14,8 @@ import (
 	"cloud.google.com/go/auth/grpctransport"
 	"cloud.google.com/go/compute/metadata"
 	"github.com/google/go-cmp/cmp"
+	"github.com/winebarrel/google-api-go-client/internal"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/api/internal"
 	"google.golang.org/grpc"
 )
 

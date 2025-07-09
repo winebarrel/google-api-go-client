@@ -18,11 +18,11 @@ import (
 
 	newidtoken "cloud.google.com/go/auth/credentials/idtoken"
 	"cloud.google.com/go/auth/oauth2adapt"
-	"google.golang.org/api/impersonate"
-	"google.golang.org/api/internal"
-	"google.golang.org/api/option"
-	"google.golang.org/api/option/internaloption"
-	htransport "google.golang.org/api/transport/http"
+	"github.com/winebarrel/google-api-go-client/impersonate"
+	"github.com/winebarrel/google-api-go-client/internal"
+	"github.com/winebarrel/google-api-go-client/option"
+	"github.com/winebarrel/google-api-go-client/option/internaloption"
+	htransport "github.com/winebarrel/google-api-go-client/transport/http"
 )
 
 // ClientOption is aliased so relevant options are easily found in the docs.

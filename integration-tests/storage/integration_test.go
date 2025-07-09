@@ -20,10 +20,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/winebarrel/google-api-go-client/googleapi"
+	storage "github.com/winebarrel/google-api-go-client/storage/v1"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/api/googleapi"
-	storage "google.golang.org/api/storage/v1"
 )
 
 type object struct {

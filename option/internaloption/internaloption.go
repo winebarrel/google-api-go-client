@@ -11,9 +11,9 @@ import (
 
 	"cloud.google.com/go/auth"
 	"github.com/googleapis/gax-go/v2/internallog"
+	"github.com/winebarrel/google-api-go-client/internal"
+	"github.com/winebarrel/google-api-go-client/option"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/api/internal"
-	"google.golang.org/api/option"
 )
 
 type defaultEndpointOption string

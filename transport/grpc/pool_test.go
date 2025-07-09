@@ -9,7 +9,7 @@ import (
 	"net"
 	"testing"
 
-	"google.golang.org/api/option"
+	"github.com/winebarrel/google-api-go-client/option"
 	"google.golang.org/grpc"
 )
 

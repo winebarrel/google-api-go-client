@@ -25,7 +25,7 @@ import (
 	"time"
 	"unicode"
 
-	"google.golang.org/api/google-api-go-generator/internal/disco"
+	"github.com/winebarrel/google-api-go-client/google-api-go-generator/internal/disco"
 )
 
 const (
@@ -56,12 +56,12 @@ var (
 	baseURL        = flag.String("base_url", "", "(optional) Override the default service API URL. If empty, the service's root URL will be used.")
 	headerPath     = flag.String("header_path", "", "If non-empty, prepend the contents of this file to generated services.")
 
-	internalPkg       = flag.String("internal_pkg", "google.golang.org/api/internal", "Go package path of the 'internal' support package.")
-	gensupportPkg     = flag.String("gensupport_pkg", "google.golang.org/api/internal/gensupport", "Go package path of the 'api/internal/gensupport' support package.")
-	googleapiPkg      = flag.String("googleapi_pkg", "google.golang.org/api/googleapi", "Go package path of the 'api/googleapi' support package.")
-	optionPkg         = flag.String("option_pkg", "google.golang.org/api/option", "Go package path of the 'api/option' support package.")
-	internalOptionPkg = flag.String("internaloption_pkg", "google.golang.org/api/option/internaloption", "Go package path of the 'api/option/internaloption' support package.")
-	htransportPkg     = flag.String("htransport_pkg", "google.golang.org/api/transport/http", "Go package path of the 'api/transport/http' support package.")
+	internalPkg       = flag.String("internal_pkg", "github.com/winebarrel/google-api-go-client/internal", "Go package path of the 'internal' support package.")
+	gensupportPkg     = flag.String("gensupport_pkg", "github.com/winebarrel/google-api-go-client/internal/gensupport", "Go package path of the 'api/internal/gensupport' support package.")
+	googleapiPkg      = flag.String("googleapi_pkg", "github.com/winebarrel/google-api-go-client/googleapi", "Go package path of the 'api/googleapi' support package.")
+	optionPkg         = flag.String("option_pkg", "github.com/winebarrel/google-api-go-client/option", "Go package path of the 'api/option' support package.")
+	internalOptionPkg = flag.String("internaloption_pkg", "github.com/winebarrel/google-api-go-client/option/internaloption", "Go package path of the 'api/option/internaloption' support package.")
+	htransportPkg     = flag.String("htransport_pkg", "github.com/winebarrel/google-api-go-client/transport/http", "Go package path of the 'api/transport/http' support package.")
 
 	copyrightYear = flag.String("copyright_year", fmt.Sprintf("%d", time.Now().Year()), "Year for copyright.")
 

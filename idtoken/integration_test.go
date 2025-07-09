@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/winebarrel/google-api-go-client/idtoken"
+	"github.com/winebarrel/google-api-go-client/option"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/api/idtoken"
-	"google.golang.org/api/option"
 )
 
 const (

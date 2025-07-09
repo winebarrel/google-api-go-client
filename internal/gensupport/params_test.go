@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"testing"
 
-	"google.golang.org/api/googleapi"
+	"github.com/winebarrel/google-api-go-client/googleapi"
 )
 
 func TestSetOptionsGetMulti(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"google.golang.org/api/googleapi"
-	"google.golang.org/api/internal"
+	"github.com/winebarrel/google-api-go-client/googleapi"
+	"github.com/winebarrel/google-api-go-client/internal"
 )
 
 // URLParams is a simplified replacement for url.Values

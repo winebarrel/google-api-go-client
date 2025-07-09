@@ -18,7 +18,7 @@ import (
         "context"
         "net/http"
 
-        "google.golang.org/api/urlshortener/v1"
+        "github.com/winebarrel/google-api-go-client/urlshortener/v1"
 )
 
 func main() {
@@ -55,7 +55,7 @@ for authorization credentials used in calling the API endpoints. This will allow
 environments without requiring explicit configuration.
 
 ```go
-// import "google.golang.org/api/sheets/v4"
+// import "github.com/winebarrel/google-api-go-client/sheets/v4"
 client, err := sheets.NewService(ctx)
 ```
 

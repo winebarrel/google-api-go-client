@@ -8,7 +8,7 @@ import (
 	"errors"
 
 	"github.com/googleapis/gax-go/v2/apierror"
-	"google.golang.org/api/googleapi"
+	"github.com/winebarrel/google-api-go-client/googleapi"
 )
 
 // WrapError creates an [apierror.APIError] from err, wraps it in err, and

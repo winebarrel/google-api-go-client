@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"google.golang.org/api/internal"
+	"github.com/winebarrel/google-api-go-client/internal"
 )
 
 // ResumableUpload is used by the generated APIs to provide resumable uploads.
