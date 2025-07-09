@@ -256,6 +256,24 @@
         "description": {
           "description": "Optional.\nA description for this Parameter. Length must be less than or equal to\n100 characters (or more precisely, unicode code points, which is defined in\njava/com/google/wireless/android/config/ConstsExporter.java).\nA description may contain any Unicode characters",
           "type": "string"
+        },
+        "valueType": {
+          "description": "Optional.\nThe data type for all values of this parameter in the current version of the template. Defaults to ParameterValueType.STRING if unspecified.",
+          "enum": [
+            "PARAMETER_VALUE_TYPE_UNSPECIFIED",
+            "STRING",
+            "BOOLEAN",
+            "NUMBER",
+            "JSON"
+          ],
+          "enumDescriptions": [
+            "Catch-all for unrecognized enum values.",
+            "Represents String values.",
+            "Represents Boolean values (\"true\" or \"false\").",
+            "Represents both positive and negative integer and float values.",
+            "Represents JSON values."
+          ],
+          "type": "string"
         }
       },
       "type": "object"

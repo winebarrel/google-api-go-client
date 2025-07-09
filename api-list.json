@@ -3233,6 +3233,21 @@
     },
     {
       "kind": "discovery#directoryItem",
+      "id": "firebaseremoteconfig:v1",
+      "name": "firebaseremoteconfig",
+      "version": "v1",
+      "title": "Firebase ML API",
+      "description": "Change the behavior and appearance of your web client or server without publishing an app update, at no cost, for unlimited daily active users.",
+      "discoveryRestUrl": "https://firebaseremoteconfig.googleapis.com/$discovery/rest?version=v1",
+      "icons": {
+        "x16": "https://www.gstatic.com/images/branding/product/1x/googleg_16dp.png",
+        "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
+      },
+      "documentationLink": "https://firebase.google.com",
+      "preferred": true
+    },
+    {
+      "kind": "discovery#directoryItem",
       "id": "firebaserules:v1",
       "name": "firebaserules",
       "version": "v1",
